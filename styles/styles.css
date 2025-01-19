@@ -13,6 +13,10 @@ h1 {
   color: grey;
 }
 
+main {
+  max-width: 840px;
+}
+
 /* Make the existing profile img selector more exclusive */
 main img {
   width: 150px;
