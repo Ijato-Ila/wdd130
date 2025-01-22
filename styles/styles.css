@@ -26,6 +26,10 @@ p {
   padding: 0;
 }
 
+main {
+  max-width: 840px;
+}
+
 /* Style the aside element */
 aside {
   width: 20rem;
