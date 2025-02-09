@@ -19,6 +19,7 @@
     <!-- Header Section -->
     <header>
         <img src="images/wwrLogo.webp" alt="Rafting Company Logo" width="100">
+        <h1>Rapid Adventures</h1>
         <nav>
             <a href="index.html">Home</a>
             <a href="about.html">About Us</a>
@@ -43,18 +44,20 @@
         <!-- Employee Profiles -->
         <section>
             <h2>Meet Our Team</h2>
-            <figure>
-                <img src="images/employee1.webp" alt="Jill Frost - Tour Guide" width="150">
-                <figcaption>Jill Frost - Tour Guide</figcaption>
-            </figure>
-            <figure>
-                <img src="images/employee2.webp" alt="Nadine Waters - Customer Support" width="150">
-                <figcaption>Nadine Waters - Customer Support</figcaption>
-            </figure>
-            <figure>
-                <img src="images/employee3_4.webp" alt="Mike & Rayna Okon - Safety Coordinators" width="150">
-                <figcaption>Mike & Rayna Okon - Safety Coordinators</figcaption>
-            </figure>
+            <div class="team">
+                <figure>
+                    <img src="images/employee1.webp" alt="Jill Frost - Tour Guide">
+                    <figcaption>Jill Frost - Tour Guide</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/employee2.webp" alt="Nadine Waters - Customer Support">
+                    <figcaption>Nadine Waters - Customer Support</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/employee3_4.webp" alt="Mike & Rayna Okon - Safety Coordinators">
+                    <figcaption>Mike & Rayna Okon - Safety Coordinators</figcaption>
+                </figure>
+            </div>
         </section>
     
         <!-- Contact Form -->
@@ -69,10 +72,10 @@
     
                 <fieldset>
                     <legend>Purpose of Message:</legend>
-                    <label for="general"><input type="radio" id="general" name="purpose" value="general" required> General Inquiry</label>
-                    <label for="reservation"><input type="radio" id="reservation" name="purpose" value="reservation"> Reservation Question</label>
-                    <label for="website"><input type="radio" id="website" name="purpose" value="website"> Website Suggestion</label>
-                </fieldset>                
+                    <label><input type="radio" name="purpose" value="general" required> General Inquiry</label>
+                    <label><input type="radio" name="purpose" value="reservation"> Reservation Question</label>
+                    <label><input type="radio" name="purpose" value="website"> Website Suggestion</label>
+                </fieldset>
     
                 <label for="message">Message:</label>
                 <textarea id="message" name="message" rows="4" required></textarea>
@@ -87,13 +90,13 @@
     
     <!-- Footer Section -->
     <footer>
-        <nav class="SocialLinks">
-            <p>&copy; 2024 White Water Rafting | Ijato Precious-jane Okpen </p>
-            <a href="https://twitter.com"><img src="images/twitter-icon.svg" alt="Twitter" width="30"></a>
-            <a href="https://facebook.com"><img src="images/facebook-icon.svg" alt="Facebook" width="30"></a>
-            <a href="https://instagram.com"><img src="images/instagram-icon.svg" alt="Instagram" width="30"></a>
+        <div class="SocialLinks">
+            <p>&copy; 2024 Rapid Adventures | Ijato Precious-jane Okpen</p>
+            <a href="https://twitter.com"><img src="images/twitter-icon.svg" alt="Twitter"></a>
+            <a href="https://facebook.com"><img src="images/facebook-icon.svg" alt="Facebook"></a>
+            <a href="https://instagram.com"><img src="images/instagram-icon.svg" alt="Instagram"></a>
             <a href="wireframes/contact-wireframe.png">View Wireframe</a>
-        </nav>
+        </div>
     </footer>    
 </body>
 </html>
