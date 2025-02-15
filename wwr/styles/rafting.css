@@ -171,6 +171,7 @@ footer .SocialLinks {
 
 
 
+
 /* Contact Page Styles */
 .contact-container {
     max-width: 800px;
@@ -214,6 +215,7 @@ form {
 
 form label {
     font-weight: bold;
+    color: var(--primary-color);  /* Color contrast for labels */
 }
 
 form input, form textarea {
@@ -221,6 +223,8 @@ form input, form textarea {
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
+    background-color: white;  /* Light background for inputs */
+    color: var(--text-color);  /* Dark text for readability */
 }
 
 fieldset {
@@ -241,6 +245,7 @@ button {
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    transition: background 0.3s ease;
 }
 
 button:hover {
