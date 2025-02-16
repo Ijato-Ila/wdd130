@@ -21,8 +21,6 @@ body {
     font-weight: 400;
     color: var(--text-color);
     background-color: var(--background-color);
-    margin: 0;
-    padding: 0;
 }
 
 /* Header Styles */
@@ -64,7 +62,6 @@ nav a {
 
 .hero img {
     width: 100%;
-    height: auto;
     display: block;
 }
 
@@ -186,7 +183,7 @@ footer .SocialLinks a {
 /* Forms */
 form {
     padding: 20px;
-    background-color: #fff;
+    background-color: white;
     border-radius: 5px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
@@ -261,7 +258,7 @@ form button {
     display: flex;
     justify-content: space-between;
     padding: 20px;
-    background: #fff;
+    background: white;
     margin-bottom: 20px;
     border-radius: 5px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -269,7 +266,6 @@ form button {
 
 .trips .trip img {
     width: 200px;
-    height: auto;
 }
 
 .trips .trip .info {
